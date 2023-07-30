@@ -607,6 +607,6 @@ jobs:
         with:
           name: iso
           path: |
-            ready/palera1n-linux-x86_64
+            ready/palera1n-linux-aarch64
                       retention-days: 90
             
