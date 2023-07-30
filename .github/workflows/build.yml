@@ -305,7 +305,7 @@ jobs:
         with:
           name: iso
           path: |
-            ready/palera1n-linux-x86_64
+            ready/palera1n-linux-aarch64
 
       - name: Upload ${{ matrix.os }} thin ${{ matrix.arch }} build
         if: ${{ github.event_name != 'pull_request' }}
